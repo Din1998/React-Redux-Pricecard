@@ -21,7 +21,9 @@
 .wraper h1 {
   font-size: 60px;
   color: white;
-  font-family: var(--font)
+  font-family: var(--font);
+  text-align: center;
+  
 }
 .wraper h2 {
   text-align: center;
