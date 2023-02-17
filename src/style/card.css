@@ -1,0 +1,49 @@
+ /* .card__section{
+
+} */
+:root{
+  --font:
+}
+
+
+.card__wraper{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+} 
+
+.card__body{
+  width: 220px;
+  height: 250px;
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(122, 122, 122, 0.10);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card_elements{
+  color: white;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.price__text{
+  padding: 16px 0px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.span_text{
+  font-size: 20px;
+}
+
+.discription__text{
+  padding: 8px 0px;
+}

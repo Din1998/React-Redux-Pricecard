@@ -1,0 +1,31 @@
+:root{
+  --font:'Courier New', Courier, monospace;
+}
+
+
+.hero__section{
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wraper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wraper h1 {
+  font-size: 60px;
+  color: white;
+  font-family: var(--font)
+}
+.wraper h2 {
+  text-align: center;
+  width: 60%;
+  color: white;
+  font-family: var(--font)
+}
