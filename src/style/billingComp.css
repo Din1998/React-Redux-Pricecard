@@ -1,0 +1,23 @@
+.billing__btn__wraper{
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bill_btn{
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.r_btn{
+  margin-left: 20px;
+}
+
+.bill_btn:hover{
+  background-color: rgb(216, 216, 216);
+}

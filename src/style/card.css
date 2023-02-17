@@ -15,6 +15,7 @@
 } 
 
 .card__body{
+  cursor: pointer;
   width: 220px;
   height: 250px;
   background: linear-gradient(130deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
