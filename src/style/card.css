@@ -41,6 +41,12 @@
   padding: 8px 0px;
 }
 
+
+.card__body:hover{
+  transition: 0.8s ease-in-out;
+  transform: translateY(16px);
+}
+
 /*Media Query  */
 @media only screen and (max-width: 636px) {
   .card__body {
