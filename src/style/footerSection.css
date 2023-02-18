@@ -1,0 +1,13 @@
+.footer__section{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer__section p{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
